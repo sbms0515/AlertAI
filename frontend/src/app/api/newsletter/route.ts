@@ -225,7 +225,6 @@ export async function POST(request: Request) {
     tools: [{ google_search: {} }],
     generationConfig: {
       temperature: 0.2,
-      responseMimeType: "application/json",
     },
   };
 
